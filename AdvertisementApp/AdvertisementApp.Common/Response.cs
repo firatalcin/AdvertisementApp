@@ -20,4 +20,4 @@ namespace AdvertisementApp.Common
         public ResponseType ResponseType { get; set; }
     }
 }
-}
+
