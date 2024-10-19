@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AdvertisementApp.DataAccess\AdvertisementApp.DataAccess.csproj" />
+    <ProjectReference Include="..\AdvertisementApp.Dtos\AdvertisementApp.Dtos.csproj" />
   </ItemGroup>
 
 </Project>

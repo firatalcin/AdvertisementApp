@@ -2,7 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AdvertisementDtos
 {
-    internal class AdvertisementCreateDto : IDto
+    public class AdvertisementCreateDto : IDto
     {
         public string Title { get; set; }
 
