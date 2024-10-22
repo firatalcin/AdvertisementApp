@@ -2,7 +2,7 @@
 
 namespace AdvertisementApp.Common
 {
-    public class ResponseData<T> : Response, IResponseData<T> where T : class
+    public class ResponseData<T> : Response, IResponseData<T> 
     {
         public T Data { get; set; }
 
