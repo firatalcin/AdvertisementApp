@@ -1,4 +1,6 @@
 using AdvertisementApp.Business.DependencyResolvers.Microsoft;
+using Microsoft.AspNetCore.Hosting;
+using System.Reflection;
 namespace AdvertisementApp.UI
 {
     public class Program
@@ -11,6 +13,7 @@ namespace AdvertisementApp.UI
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDependencies(builder.Configuration);
+           
 
             var app = builder.Build();
 
